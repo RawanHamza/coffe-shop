@@ -282,7 +282,21 @@ html {
     margin: 0;
 
 }
-
+#btn{
+	position: absolute;
+  background:none;
+  width:40px;
+  border:none;
+  cursor:pointer;
+  left:90%;
+}
+#btn i {
+  font-size:40px;
+	color:#565656
+}
+#btn:hover i{
+	    color: #c39478;	
+}
 @media screen and (max-width:1040px){
   body{
     overflow-x:hidden;
