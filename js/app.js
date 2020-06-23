@@ -40,7 +40,10 @@ function onScroll(event){
 
 window.document.addEventListener('scroll', onScroll );
 
-//When clicking an item from the navigation menu, the link should scroll to the appropriate section. 
-document.querySelector('.scrollme').scrollIntoView({ 
-  behavior: 'smooth' 
-});
+//button scrolls to top
+
+var scrollTop=document.querySelector('#btn');
+scrollTop.addEventListener('click', function() {
+
+  document.documentElement.scrollTop = 0; 
+} );
