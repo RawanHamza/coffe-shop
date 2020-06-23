@@ -370,6 +370,8 @@ html {
     .help{
         padding-top: 15px;
     }
+	#btn{
+		left:50%;
 }
 .nav-active{
   transform: translate(0);
