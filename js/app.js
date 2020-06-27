@@ -57,4 +57,15 @@ function scrollFunction() {
     scrollTop.style.display = "none";
   }
 }
+//dark mode
+			var myCheck= document.querySelector('input[type="checkbox"]');
+				var myBody=document.querySelector('body');
 
+			myCheck.addEventListener('change', () => {
+  if(myCheck.checked) {
+    myBody.style.background = '#130101';
+    
+  } else {
+    myBody.style.background= 'white';
+  }
+});
