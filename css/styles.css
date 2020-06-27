@@ -333,7 +333,8 @@ html {
 }
 #btn i {
   font-size:40px;
-	color:#565656
+	color:#565656;
+	outline: none;
 }
 #btn:hover i{
 	    color: #c39478;	
