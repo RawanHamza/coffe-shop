@@ -330,6 +330,7 @@ html {
   cursor:pointer;
   left:90%;
 	top:80%;
+	outline:none;
 }
 #btn i {
   font-size:40px;
